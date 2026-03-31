@@ -57,8 +57,6 @@ We built **Chrome Analyzer** because:
 4. Click **Load unpacked** and select the `Chrome-Extension-Permission-Analyzer/` folder
 5. Click the **Chrome Analyzer** icon in the toolbar to open the dashboard
 
-> Clicking the icon opens a full-page dashboard tab — there is no popup.
-
 ---
 
 ## Usage
