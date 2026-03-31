@@ -54,7 +54,7 @@ We built **Chrome Analyzer** because:
 1. **Download or clone** this repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable **Developer mode** (toggle in the top-right corner)
-4. Click **Load unpacked** and select the `chrome-ext/` folder
+4. Click **Load unpacked** and select the `Chrome-Extension-Permission-Analyzer/` folder
 5. Click the **Chrome Analyzer** icon in the toolbar to open the dashboard
 
 > Clicking the icon opens a full-page dashboard tab — there is no popup.
