@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Analyzer",
+  "version": "5.0",
+  "description": "Chrome Extension Permission Analyzer — batch-audit extension permissions via direct CRX fetch. No third-party services.",
+  "permissions": ["storage", "downloads", "management"],
+  "host_permissions": [
+    "*://clients2.google.com/service/update2/crx*",
+    "*://clients2.googleusercontent.com/crx/download/*"
+  ],
+  "icons": {
+    "16":  "icons/icon16.png",
+    "32":  "icons/icon32.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
