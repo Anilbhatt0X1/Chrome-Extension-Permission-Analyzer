@@ -1,1 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Rounded square background -->
+  <rect width="128" height="128" rx="22" fill="#1d4ed8"/>
 
+  <!-- Outer glow ring of lens -->
+  <circle cx="51" cy="49" r="30" fill="none" stroke="#93c5fd" stroke-width="3" opacity="0.5"/>
+
+  <!-- Magnifying glass lens ring -->
+  <circle cx="51" cy="49" r="26" fill="none" stroke="white" stroke-width="13"/>
+
+  <!-- Subtle fill inside lens -->
+  <circle cx="51" cy="49" r="19" fill="white" opacity="0.12"/>
+
+  <!-- Handle -->
+  <line x1="70" y1="68" x2="100" y2="98" stroke="white" stroke-width="13" stroke-linecap="round"/>
+</svg>
